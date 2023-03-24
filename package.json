@@ -1,0 +1,25 @@
+{
+  "name": "acme",
+  "version": "1.0.0",
+  "description": "This is the repository of a very simple nodejs real project The goal of this code, is that you understand all the code and the reason Why I choose certain modules.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src",
+    "start": "node src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
